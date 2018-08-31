@@ -1,0 +1,33 @@
+Code of Ethics:::The fifth estate
+
+Short description of the movie:
+WikiLeaks is one of the most famous internet platforms, where people can anonymously post own news without any external editing. According to the Wikileaks, it's credo can be described as "bring important news and information to the public". The main focus of the movie was concentrated in the case when one sent data about American spies in other countries. 
+
+Main characters:
+Daniel Domscheit-Berg is one of the main characters of the movie. He helped to develop WikiLeaks website. Daniel and founder of a website Julian Assange were good friends until they got data about spies.
+
+Description of the situation:
+Julian and Daniel, got data about American spies, who provided the American government with internal confidential information. Julian as founder did not want to edit the data and more, he wanted to share these data by publishing them in big magazines such as the New York Times, The Guardian and so on without any editing. But, Daniel was against this idea, he said that this data may threaten the life of people who listed there. He asked to delete some names of people, who at that moment was inside the countries. After the long discussion, Julina agreed to give permission for editing, but Julian lied. Julian wanted to unnoticeably post these data in Wikileaks. Unfortunately, Daniel found out a plan of Julian and decided to delete this data from Wikileaks database, as result data was totally deleted.
+
+Discussion of ethical behaviour of chosen character:
+A main focus of discussion will be the ethical behaviour of Daniel. In the next section, the discussion will be based on ACM SE Code of Ethics. Everything that will be described below written according to movie representation and personal understanding of the situation. 
+
+PUBLIC:
+The scenario of the movie explained the consequence of posting data as the menace directed to the USA government and American spies, who were in dangerous zones of such as Iran, Iraq and so on. In case of publishing data, other countries may complain in political level, which may negatively affect citizens of USA, also the spies that were outside of country may be killed by these countries because they shared internal confidential information. 
+Daniel understood the situation in such a manner and tried to reach an agreement with Julian, but Julian lied. Consequently, Daniel totally deleted data. In such a context, Daniel took responsibility for their decision and tried to do in the interest of people. In point of public ethics, Daniel was represented in a positive manner
+CLIENT AND EMPLOYER:
+According to the words of Julian, the main readers of Wikileaks are people who understand that news that they have in open source is not reliable, this news may be deleted, edited depending on the interest of the local and global government. But, the data that Wikileaks had in content cannot be approved by someone as the author of news is anonymous. In such a classification, Daniel posted data without any proof, which in some way shows the irresponsibility of Daniel to the readers of Wikileaks.
+PRODUCT:
+In the movie, the hard way of Wikileaks development was represented. Daniel spent all own budget that he had to bought new servers and he travelled around the world to install them in order to increase the response time of the website. Daniel spent a lot of time to wrote a front page with a new more comfortable CMS. Daniel represented as a programmer, who was fully responsible for their product.
+JUDGEMENT:
+Despite the fact that Wikileaks is a big website, the movie represented it as a website which was developed by the force of two people. Because of that, discussion about judicial ethics is hard to do.
+MANAGEMENT:
+In the movie, after some time, volunteers wanted to join their team, they got a large pull of developers, but their management approach was not represented. 
+PROFESSION:
+This section is very contradictable, the reason is that depending on what base topic will be described, the picture of the good or bad programmer may be different. From personal perception, Daniel is an example of a good programmer. In that movie, a programmer with minimal resource got such powerful data that may threaten the lives of people, while Daniel saved the status of a programmer from being evils who destroyed the political structure of country and lives of people.
+COLLEAGUES:
+The movie was concentrated on Julian and Daniel, but there were other characters in the movie and Daniel worked in cooperation with colleagues and volunteers. The relationship between colleagues was respectful and friendly. There were moments, where characters listen to the opinion of other people, discuss with colleagues, which was a good representation of high intelligence and good communication among programmers.
+SELF:
+The professional growth of Daniel was not clear in the story. But, the characters mentioned a lot that, they grow as a team through collaboration and every day they learned something new and interesting. By such description, it can be concluded that self-development of programmer had good representation in the movie.
+
+In conclusion, after the going throw of all SE code of ethics, the Fifth Estate is a good example programmer in the person of Daniel Domscheit-Berg as these person represented as intelligent, friendly and altruistic manner.
