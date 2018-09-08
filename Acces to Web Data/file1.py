@@ -8,5 +8,5 @@ print(res)
 text1 = 'me daulet.maksut@nu.edu.kz ssd name daulet maksut daulet.maksut@'
 email = re.findall('^me (\S+@\S+)', text1)
 print(email)
-extend = re.findall('.@([^ ]*)', text1)
+extend = re.findall('@([^ ]*)', text1)
 print(extend)
