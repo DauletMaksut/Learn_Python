@@ -21,7 +21,9 @@ class Nqueens:
 
     def check_position(self, line, row, col):
         for x in range(row):
-            if line[x] == col or line[x] - x == col - row or line[x] + x == col + row:
+            if line[x] == col \
+                or line[x] - x == col - row \
+                or line[x] + x == col + row:
                 return False
         return True
 
@@ -34,4 +36,4 @@ class Nqueens:
                     print("*", end=" ")
             print()
         print()
-Nqueens(10)
+Nqueens(8)
