@@ -34,4 +34,4 @@ class Nqueens:
                     print("*", end=" ")
             print()
         print()
-Nqueens(8)
+Nqueens(10)
