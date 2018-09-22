@@ -14,11 +14,17 @@ df = get_iris_df()
 
 # Making pie chart
 sums_by_species = df.groupby('species').sum()
-sums_by_species.plot(kind='pie', subplots=True, layout=(2, 2), fontsize=15)
-plt.title('By species', fontsize=15)
+var = 'sepal width (cm)'
+sums_by_species[var].plot(kind='bar', fontsize=15, rot=20)
+plt.title('Sepal width', fontsize=15)
 # plt.show()
-plt.savefig('iris_pie_chart_4.jpg')
+plt.savefig('iris_bar_1.jpg')
 plt.close()
-
+sums_by_species = df.groupby('species').sum()
+sums_by_species.plot(kind='bar', subplots=True, fontsize=12)
+plt.suptitle("Worked lol")
+# plt.show()
+plt.savefig('iris_bar_2.jpg')
+plt.close()
 #page 63
 
