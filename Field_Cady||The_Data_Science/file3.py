@@ -21,3 +21,37 @@ plt.legend(loc='upper right')
 plt.suptitle('Should be overlapping')
 plt.savefig('iris_hist_1.jpg')
 
+# Calculate mean, stdev, median and quatiles
+
+col = df['petal length (cm)']
+print("Average is:", col.mean())
+print("StandDev is:", col.std())
+print("Median is:", col.quantile(.5))
+print("q.25 is:", col.quantile(.25))
+print("q.75 is:", col.quantile(.75))
+print("Number of data is:", len(col))
+print()
+
+# delete upper .75 and lower .25 in quantile
+p_25 = col.quantile(.25)
+p_75 = col.quantile(.75)
+col = col[(col>p_25)&(col<p_75)]
+print("Average is:", col.mean())
+print("StandDev is:", col.std())
+print("Median is:", col.quantile(.5))
+print("q.25 is:", col.quantile(.25))
+print("q.75 is:", col.quantile(.75))
+print("Number of data is:", len(col))
+print()
+
+p_25 = col.quantile(.25)
+p_75 = col.quantile(.75)
+col = col[(col>p_25)&(col<p_75)]
+print("Average is:", col.mean())
+print("StandDev is:", col.std())
+print("Median is:", col.quantile(.5))
+print("q.25 is:", col.quantile(.25))
+print("q.75 is:", col.quantile(.75))
+print("Number of data is:", len(col))
+print()
+
