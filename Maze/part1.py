@@ -7,14 +7,23 @@ connectivity_num = int(input("Enter number of edges(k): "))
 leaf_num = int(input("Enter number of borders(K): "))
 
 
-def output(outwriter):
+def output(pool):
+    for element in pool:
+    outwriter = []
+    nodes = []
+    for x in K_pool:
+        outwriter.append(x.get_con())
+        nodes.append(x)
+    for x in N_pool:
+        outwriter.append(x.get_con())
+        nodes.append(x)
     file = open("out.txt", "w")
     for x in range(len(outwriter)):
-        line = str(x) + ":"
+        line = str(x) + ":" + str(nodes[x].wall) + "," + str(nodes[x].hole) + "," + str(nodes[x].monster) + "," + str(nodes[x].gold) + "," + str(float(nodes[x].wind_val)) + "," + str(float(nodes[x].smell_val))
         for y in outwriter[x]:
             line += " " + str(y)
-        line += "\n"
         print(line)
+        line += "\n"
         file.write(line)
     file.close()
 

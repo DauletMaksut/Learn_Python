@@ -6,8 +6,8 @@ WW = int(input("Enter number (WW): "))
 HH = int(input("Enter number (HH): "))
 MM = int(input("Enter number (MM): "))
 GG = int(input("Enter number (GG): "))
-omega = int(input("Enter spread number (⍬): "))
-sigma = float(input("Enter decay rate number (⍵): "))
+omega = int(input("Enter spread number don't find sigma ⍬: "))
+sigma = float(input("Enter decay rate number (omega ⍵): "))
 
 if WW > N:
     print("Nonono")
@@ -188,7 +188,7 @@ while True:
     if pool[random_number].hole == 0:
         pool[random_number].hole = 1
         check +=1
-        if omega == 0:
+        if omega == 0 or sigma == 0:
             pool[random_number].wind_val = 1
         else:
             recursion_wind(random_number, omega, sigma, 1)
@@ -201,7 +201,7 @@ while True:
     if pool[random_number].monster == 0:
         pool[random_number].monster = 1
         check+=1
-        if omega == 0:
+        if omega == 0 or sigma == 0:
             pool[random_number].smell_val = 1
         else:
             recursion_smell(random_number, omega, sigma, 1)
