@@ -14,6 +14,7 @@ def output(outwriter):
         for y in outwriter[x]:
             line += " " + str(y)
         line += "\n"
+        print(line)
         file.write(line)
     file.close()
 
